@@ -43,7 +43,7 @@ package modules.mainView
 
 		override protected function show():void
 		{
-			PopupManager.addContentUI(mainUI, true);
+			PopupManager.addPopUp(mainUI, UIAllRefer.stage);
 		}
 
 		override protected function onAddToStage(event:Event):void
